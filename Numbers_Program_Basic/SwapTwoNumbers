@@ -1,0 +1,8 @@
+class swaptwonumbers:
+    def __init__(self,number1,number2):
+        self.number1=number1
+        self.number2=number2
+    def simpleunpacking(self):
+        return number1,number2 =number2,number1
+s=swaptwonumbers(2,5)
+print(s.simpleunpacking())
